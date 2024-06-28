@@ -1,42 +1,49 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
-import '../global.css';
-import companyLogo from '../assets/CompanyLogo.png';
-import './Navbar.css';
-import { HiMiniChevronDown } from "react-icons/hi2";
-import { FaBars, FaTimes } from "react-icons/fa";
+import styles from "./Navbar.module.css";
 
 const Navbar = ({ className = "" }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   return (
-    <section className={`navbar-container ${className}`}>
-      <div className="navbar-inner">
-        <div className="navbar-logo">
-          <img className="w- relative h-[35px]" alt="Company Logo" src={companyLogo} />
-        </div>
-        <div className="navbar-toggle" onClick={toggleMenu}>
-          {isMenuOpen ? <FaTimes /> : <FaBars />}
-        </div>
-        <div className={`navbar-links ${isMenuOpen ? "active" : ""}`}>
-          <div className="navbar-link">Home</div>
-          <div className="navbar-link">About</div>
-          <div className="navbar-link">Pricing</div>
-          <div className="navbar-customers">
-            <div className="navbar-link">Customers</div>
-            <HiMiniChevronDown />
+    <header className={[styles.navbar, className].join(" ")}>
+      <div className={styles.navbarContent}>
+        <div className={styles.companyLogo}>
+          <div className={styles.companyLogo1}>
+            <img
+              className={styles.fictionalCompanyLogo}
+              loading="lazy"
+              alt=""
+              src="/fictional-company-logo.svg"
+            />
+            <img
+              className={styles.financyIcon}
+              loading="lazy"
+              alt=""
+              src="/financy.svg"
+            />
           </div>
         </div>
-        <div className={`navbar-actions ${isMenuOpen ? "active" : ""}`}>
-          <div className="navbar-login">Login</div>
-          <div className="navbar-register">Register</div>
+        <div className={styles.navbarButton}>
+          <a className={styles.home}>Home</a>
+          <a className={styles.about}>About</a>
+          <a className={styles.pricing}>Pricing</a>
+          <div className={styles.costumerButton}>
+            <a className={styles.customers}>Customers</a>
+            <img
+              className={styles.iconamoonarrowUp2Light}
+              alt=""
+              src="/iconamoonarrowup2light.svg"
+            />
+          </div>
+        </div>
+        <div className={styles.loginRegisterButton}>
+          <button className={styles.loginButton}>
+            <a className={styles.login}>Login</a>
+          </button>
+          <button className={styles.registerButton}>
+            <a className={styles.register}>Register</a>
+          </button>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

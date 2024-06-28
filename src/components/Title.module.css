@@ -1,0 +1,105 @@
+.whyChooseFinancy {
+  width: 196px;
+  position: relative;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  box-shadow: -2px 2px 16px rgba(93, 116, 241, 0.06),
+    2px 2px 16px rgba(93, 116, 241, 0.06);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  white-space: nowrap;
+}
+.financialManagementIs,
+.secureYourMoney {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.secureYourMoney {
+  width: 528px;
+  line-height: 140%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 528px;
+  max-width: 100%;
+}
+.financialManagementIs {
+  align-self: stretch;
+  letter-spacing: 0.02em;
+  line-height: 180%;
+  font-weight: 500;
+}
+.management,
+.precision,
+.title {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.management {
+  width: 512px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray-400);
+}
+.precision,
+.title {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-100);
+}
+.title {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-royalblue-100);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1225px) {
+  .secureYourMoney {
+    flex: 1;
+  }
+  .precision {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .secureYourMoney {
+    font-size: var(--font-size-19xl);
+    line-height: 54px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .secureYourMoney {
+    font-size: var(--font-size-10xl);
+    line-height: 40px;
+  }
+  .financialManagementIs {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+}

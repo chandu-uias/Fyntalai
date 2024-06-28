@@ -1,0 +1,71 @@
+.saveYourMoney {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 273px;
+  max-width: 100%;
+}
+.moreButtonChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-royalblue-100);
+}
+.ionarrowUpOutlineIcon {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  margin: 0 !important;
+  top: 9.6px;
+  left: 9.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.benefitNames,
+.moreButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moreButton {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.benefitNames {
+  align-self: stretch;
+  gap: var(--gap-57xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 750px) {
+  .saveYourMoney {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .benefitNames {
+    flex-wrap: wrap;
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .saveYourMoney {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .benefitNames {
+    gap: var(--gap-lgi);
+  }
+}

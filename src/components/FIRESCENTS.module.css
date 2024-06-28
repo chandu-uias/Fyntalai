@@ -1,0 +1,97 @@
+.fireScentsChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.fictionalCompanyLogo,
+.financyIcon {
+  height: 35px;
+  width: 32px;
+  position: relative;
+}
+.financyIcon {
+  height: 28px;
+  width: 112px;
+}
+.companyLogo,
+.companyLogo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.companyLogo1 {
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+.companyLogo {
+  align-items: center;
+}
+.financyAllRight,
+.privacy,
+.security,
+.terms {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.privacy,
+.security,
+.terms {
+  display: inline-block;
+  min-width: 46px;
+}
+.privacy,
+.security {
+  flex: 1;
+  min-width: 56px;
+}
+.security {
+  min-width: 64px;
+}
+.termsPrivacySecurity {
+  width: 254px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.copyrightDetails,
+.fireScents {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.copyrightDetails {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-xl);
+}
+.fireScents {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-400);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1050px) {
+  .copyrightDetails {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .fireScents {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .termsPrivacySecurity {
+    gap: var(--gap-3xl);
+  }
+}

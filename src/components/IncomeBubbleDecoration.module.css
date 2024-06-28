@@ -1,0 +1,344 @@
+.bubble,
+.bubble1 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin: 0 !important;
+  backdrop-filter: blur(3.8px);
+  border-radius: 50%;
+  background-color: var(--color-royalblue-100);
+  z-index: 1;
+}
+.bubble {
+  top: -34.1px;
+  left: -34px;
+}
+.bubble1 {
+  right: -36.1px;
+  bottom: -23.1px;
+}
+.weeklyIncomeChild {
+  height: 156.8px;
+  width: 184.9px;
+  position: relative;
+  filter: blur(112.38px);
+  border-radius: 10.11px;
+  background-color: var(--color-gray-200);
+  display: none;
+}
+.incomeElementsChild,
+.weeklyIncomeItem {
+  height: 155.2px;
+  width: 183.2px;
+  position: relative;
+  border-radius: var(--br-3xs-9);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+}
+.incomeElementsChild {
+  width: 166.7px;
+  height: 138.7px;
+  background-color: var(--color-white);
+}
+.monthlyIncome {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87.5px;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.upNumberChild {
+  height: 11.2px;
+  width: 27.1px;
+  position: relative;
+  border-radius: 11.24px;
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.arrowLeftIcon,
+.changeAmount {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.arrowLeftIcon {
+  margin-left: -7.4px;
+  height: 6.7px;
+  width: 6.8px;
+  object-fit: contain;
+  min-height: 7px;
+}
+.changeAmount {
+  flex: 1;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 13.5px;
+}
+.changeDetails {
+  width: 13.5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-6);
+}
+.changeDetails,
+.incomeValues,
+.upNumber {
+  display: flex;
+  flex-direction: row;
+}
+.upNumber {
+  width: 27.1px;
+  border-radius: 11.24px;
+  background-color: var(--color-whitesmoke-200);
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-10xs-3) var(--padding-10xs) var(--padding-10xs-2);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-7xs-6);
+  color: var(--color-royalblue-100);
+}
+.incomeValues {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xl-2);
+}
+.emptyPlaceholders,
+.emptyPlaceholders1,
+.emptyPlaceholders2,
+.emptyPlaceholders3,
+.emptyPlaceholders4 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+  z-index: 3;
+}
+.placeholderContainer {
+  width: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs-2);
+}
+.upChild {
+  height: 13.4px;
+  width: 29.3px;
+  position: relative;
+  border-radius: 2.25px;
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.arrowUpIcon,
+.increaseValue {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.increaseValue {
+  flex: 1;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 14.7px;
+}
+.arrowUpIcon {
+  width: 4.5px;
+  height: 4.5px;
+}
+.arrowUpWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.increaseValueContainer,
+.up {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.increaseValueContainer {
+  width: 20.3px;
+  align-items: flex-end;
+  gap: var(--gap-11xs-1);
+}
+.up {
+  position: absolute;
+  top: 0;
+  left: 50.2px;
+  border-radius: 2.25px;
+  background-color: var(--color-gray-100);
+  width: 29.3px;
+  align-items: flex-start;
+  padding: var(--padding-9xs-3) var(--padding-9xs) var(--padding-9xs-4);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.chartAreaChild,
+.chartAreaChild1,
+.chartAreaInner,
+.chartAreaItem,
+.lineDiv {
+  position: absolute;
+  top: 71.7px;
+  left: 0;
+  border-top: 0.6px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 125.7px;
+  height: 0.6px;
+  z-index: 3;
+}
+.chartAreaChild1,
+.chartAreaInner,
+.chartAreaItem,
+.lineDiv {
+  top: 53.8px;
+}
+.chartAreaChild1,
+.chartAreaInner,
+.lineDiv {
+  top: 35.8px;
+  border-top: 0.6px dashed var(--color-gainsboro-200);
+}
+.chartAreaChild1,
+.lineDiv {
+  top: 17.9px;
+  border-top: 0.6px solid var(--color-gainsboro-200);
+}
+.chartAreaChild1 {
+  top: 0;
+}
+.chartIcon,
+.cursorsPointer {
+  position: absolute;
+  top: 0.6px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.cursorsPointer {
+  top: 9px;
+  left: 80.1px;
+  width: 13.5px;
+  height: 13.4px;
+  z-index: 5;
+}
+.chartArea {
+  position: absolute;
+  top: 3.9px;
+  left: 0;
+  width: 125.1px;
+  height: 72.3px;
+}
+.increaseIndicator {
+  height: 76.2px;
+  flex: 1;
+  position: relative;
+  text-align: center;
+  color: var(--color-white);
+}
+.incomeValueContainer,
+.placeholder {
+  display: flex;
+  justify-content: flex-start;
+}
+.placeholder {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-7xs-6);
+  text-align: right;
+  font-size: var(--font-size-7xs-6);
+  color: var(--color-darkgray-300);
+}
+.incomeValueContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-2xs-4);
+}
+.incomeDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+}
+.apr,
+.feb,
+.jan,
+.june,
+.mar,
+.may {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 11.3px;
+  z-index: 3;
+}
+.apr,
+.feb,
+.june,
+.mar,
+.may {
+  min-width: 13.5px;
+}
+.june {
+  min-width: 15.8px;
+}
+.chartMonths,
+.incomeElements {
+  display: flex;
+  justify-content: flex-start;
+}
+.chartMonths {
+  width: 126.3px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-7xs-6);
+  color: var(--color-darkgray-300);
+}
+.incomeElements {
+  flex: 1;
+  border-radius: var(--br-3xs-9);
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-sm-2) var(--padding-sm) var(--padding-xs-2)
+    var(--padding-2xs);
+  gap: var(--gap-7xs-6);
+  z-index: 2;
+}
+.incomeBubbleDecoration,
+.weeklyIncome {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weeklyIncome {
+  flex: 1;
+  border-radius: var(--br-3xs-9);
+  background-color: var(--color-whitesmoke-100);
+  padding: var(--padding-3xs-1) var(--padding-4xs) var(--padding-4xs);
+  z-index: 1;
+}
+.incomeBubbleDecoration {
+  width: 184.9px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-xs-2);
+  color: var(--color-gray-100);
+  font-family: var(--font-plus-jakarta-sans);
+}

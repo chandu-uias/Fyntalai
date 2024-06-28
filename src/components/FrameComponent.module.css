@@ -1,0 +1,604 @@
+.joinWithUs {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-royalblue-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 114px;
+}
+.label,
+.labelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--color-white);
+  box-shadow: -2px 2px 16px rgba(93, 116, 241, 0.06),
+    2px 2px 12px rgba(93, 116, 241, 0.06);
+  border-radius: var(--br-5xs);
+  white-space: nowrap;
+}
+.label:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.labelWrapper {
+  padding: 0 0 var(--padding-xl);
+}
+.bubble {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin: 0 !important;
+  top: -18px;
+  right: 102px;
+  backdrop-filter: blur(3.8px);
+  border-radius: 50%;
+  background-color: var(--color-lavender-200);
+}
+.finance,
+.solution {
+  color: var(--color-royalblue-100);
+}
+.easierSolutionToContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.joinDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.discoverNewWays {
+  margin: 0;
+  width: 632px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-darkgray-400);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.joinContent {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.bubble1 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(3.8px);
+  border-radius: 50%;
+  background-color: var(--color-lavender-200);
+}
+.manageNow {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 117px;
+}
+.manageButton,
+.manageButtonWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.manageButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-15xl);
+  background-color: var(--color-royalblue-100);
+  box-shadow: -4px 4px 6px rgba(93, 116, 241, 0.06),
+    4px 4px 6px rgba(93, 116, 241, 0.06);
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.manageButton:hover {
+  background-color: var(--color-dodgerblue);
+}
+.manageButtonWrapper {
+  flex-direction: column;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.playIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-radius: var(--br-61xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.playIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm-5) 0 0;
+}
+.howItWorks {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.howItWorksWrapper {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi-5) var(--padding-lg) 0 0;
+  box-sizing: border-box;
+}
+.bubble2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  backdrop-filter: blur(3.8px);
+  border-radius: 50%;
+  background-color: var(--color-lavender-200);
+}
+.bubbleWrapper,
+.manageContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bubbleWrapper {
+  height: 148px;
+  width: 90px;
+  flex-direction: column;
+  padding: var(--padding-39xl) 0 0;
+  box-sizing: border-box;
+}
+.manageContent {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  min-width: 502px;
+  max-width: 100%;
+}
+.bubble3 {
+  height: 266px;
+  width: 266px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -52px;
+  left: -72px;
+  backdrop-filter: blur(3.8px);
+  border-radius: 50%;
+  background-color: var(--color-royalblue-200);
+}
+.weeklyIncomeChild {
+  height: 190px;
+  width: 224px;
+  position: relative;
+  filter: blur(136.17px);
+  border-radius: 12.26px;
+  background-color: var(--color-gray-200);
+  display: none;
+}
+.weeklyIncomeContentChild,
+.weeklyIncomeItem {
+  height: 188px;
+  width: 222px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+}
+.weeklyIncomeContentChild {
+  width: 202px;
+  height: 168px;
+  background-color: var(--color-white);
+}
+.monthlyIncome {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 109px;
+  z-index: 3;
+}
+.upNumberChild {
+  height: 13.6px;
+  width: 32.8px;
+  position: relative;
+  border-radius: 13.62px;
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.arrowLeftIcon,
+.incomeChange {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.arrowLeftIcon {
+  margin-left: -8.9px;
+  height: 8.1px;
+  width: 8.2px;
+  object-fit: contain;
+  min-height: 8px;
+}
+.incomeChange {
+  width: 16.4px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16.4px;
+}
+.numberContent,
+.upNumber {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.numberContent {
+  width: 16.4px;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-7);
+}
+.upNumber {
+  align-self: stretch;
+  border-radius: 13.62px;
+  background-color: var(--color-whitesmoke-200);
+  justify-content: flex-end;
+  padding: var(--padding-10xs-7) var(--padding-9xs) var(--padding-10xs-8);
+  z-index: 3;
+}
+.incomeNumber,
+.monthlyIncomeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.incomeNumber {
+  width: 32.8px;
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-6xs-8);
+  color: var(--color-royalblue-100);
+}
+.monthlyIncomeParent {
+  flex-direction: row;
+  gap: var(--gap-6xl-2);
+}
+.div,
+.div1,
+.div2,
+.div3,
+.div4 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 10.9px;
+  z-index: 3;
+}
+.graphBars {
+  width: 10.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm-6);
+}
+.upChild {
+  height: 16.3px;
+  width: 35.5px;
+  position: relative;
+  border-radius: 2.72px;
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.graphUpNumber {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 17.8px;
+  z-index: 1;
+}
+.arrowUpIcon {
+  width: 5.5px;
+  height: 5.4px;
+  position: relative;
+  z-index: 1;
+}
+.arrowUpWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-3);
+}
+.graphUpValue,
+.up {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.graphUpValue {
+  width: 24.6px;
+  align-items: flex-end;
+  gap: var(--gap-11xs-3);
+}
+.up {
+  position: absolute;
+  top: 0;
+  left: 60.8px;
+  border-radius: 2.72px;
+  background-color: var(--color-gray-100);
+  width: 35.5px;
+  align-items: flex-start;
+  padding: var(--padding-8xs-1) var(--padding-8xs);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.frameChild,
+.frameChild1,
+.frameInner,
+.frameItem,
+.lineDiv {
+  position: absolute;
+  top: 86.8px;
+  left: 0;
+  border-top: 0.7px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 152.3px;
+  height: 0.7px;
+  z-index: 3;
+}
+.frameChild1,
+.frameInner,
+.frameItem,
+.lineDiv {
+  top: 65.1px;
+}
+.frameChild1,
+.frameInner,
+.lineDiv {
+  top: 43.4px;
+  border-top: 0.7px dashed var(--color-gainsboro-200);
+}
+.frameChild1,
+.lineDiv {
+  top: 21.7px;
+  border-top: 0.7px solid var(--color-gainsboro-200);
+}
+.frameChild1 {
+  top: 0;
+}
+.chartIcon,
+.cursorsPointer {
+  position: absolute;
+  top: 0.7px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.cursorsPointer {
+  top: 10.8px;
+  left: 97px;
+  width: 16.4px;
+  height: 16.3px;
+  z-index: 5;
+}
+.lineParent {
+  position: absolute;
+  top: 4.8px;
+  left: 0;
+  width: 151.6px;
+  height: 87.5px;
+}
+.graphUp {
+  height: 92.3px;
+  flex: 1;
+  position: relative;
+  text-align: center;
+  color: var(--color-white);
+}
+.graphContainer,
+.incomeMetrics {
+  display: flex;
+  justify-content: flex-start;
+}
+.graphContainer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-6xs-8);
+  text-align: right;
+  font-size: var(--font-size-6xs-8);
+  color: var(--color-darkgray-300);
+}
+.incomeMetrics {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xs-6);
+}
+.incomeDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+}
+.apr,
+.feb,
+.jan,
+.june,
+.mar,
+.may {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 13.7px;
+  z-index: 3;
+}
+.apr,
+.feb,
+.june,
+.mar,
+.may {
+  min-width: 16.4px;
+}
+.june {
+  min-width: 19.1px;
+}
+.graphLabels {
+  width: 153px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs-9);
+  text-align: center;
+  font-size: var(--font-size-6xs-8);
+  color: var(--color-darkgray-300);
+}
+.weeklyIncome,
+.weeklyIncomeContent {
+  flex: 1;
+  border-radius: var(--br-xs);
+  justify-content: flex-start;
+}
+.weeklyIncomeContent {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-base) var(--padding-mid) var(--padding-sm-5)
+    var(--padding-smi);
+  gap: var(--gap-6xs-8);
+  z-index: 2;
+}
+.weeklyIncome {
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-2xs);
+  z-index: 1;
+}
+.bubbleParent,
+.incomeContent,
+.weeklyIncome {
+  display: flex;
+  align-items: flex-start;
+}
+.bubbleParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.incomeContent {
+  width: 224px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xl);
+  box-sizing: border-box;
+  min-width: 224px;
+  text-align: left;
+  font-size: var(--font-size-sm-6);
+}
+.frameParent,
+.secondBannerButtons {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.secondBannerButtons {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-175xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1050px) {
+  .incomeContent,
+  .manageContent {
+    flex: 1;
+  }
+  .secondBannerButtons {
+    flex-wrap: wrap;
+    gap: var(--gap-78xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .easierSolutionToContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 72px;
+  }
+  .manageContent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .easierSolutionToContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 54px;
+  }
+  .discoverNewWays {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .secondBannerButtons {
+    gap: var(--gap-29xl);
+  }
+}

@@ -1,0 +1,239 @@
+.about1 {
+  position: relative;
+  display: inline-block;
+  min-width: 55px;
+}
+.trendings {
+  min-width: 66px;
+}
+.aboutUs,
+.features,
+.trendings {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.aboutUs {
+  text-decoration: none;
+  color: inherit;
+  min-width: 62px;
+}
+.features {
+  min-width: 60px;
+}
+.about,
+.about2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about2 {
+  gap: var(--gap-9xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-400);
+}
+.about {
+  gap: var(--gap-17xl);
+}
+.company1,
+.employee,
+.partnerships,
+.security {
+  position: relative;
+  display: inline-block;
+  min-width: 86px;
+}
+.employee,
+.partnerships,
+.security {
+  font-weight: 600;
+  min-width: 85px;
+}
+.employee,
+.security {
+  min-width: 69px;
+}
+.security {
+  min-width: 57px;
+}
+.company,
+.partnershipsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.partnershipsParent {
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-400);
+}
+.company {
+  justify-content: center;
+  gap: var(--gap-17xl);
+}
+.contactUs,
+.faqs,
+.support1,
+.supportCenter {
+  position: relative;
+  display: inline-block;
+  min-width: 73px;
+}
+.contactUs,
+.faqs,
+.supportCenter {
+  font-weight: 600;
+  min-width: 106px;
+}
+.contactUs,
+.faqs {
+  min-width: 76px;
+}
+.faqs {
+  min-width: 37px;
+}
+.support,
+.supportCenterParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supportCenterParent {
+  gap: var(--gap-9xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-400);
+}
+.support {
+  gap: var(--gap-17xl);
+}
+.movement1,
+.supportUs,
+.whatIsFinancy {
+  position: relative;
+  display: inline-block;
+}
+.movement1 {
+  min-width: 95px;
+}
+.supportUs,
+.whatIsFinancy {
+  font-weight: 600;
+}
+.whatIsFinancy {
+  min-width: 112px;
+  white-space: nowrap;
+}
+.supportUs {
+  min-width: 76px;
+}
+.footer,
+.movement,
+.supportInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supportInfo {
+  gap: var(--gap-9xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-400);
+}
+.footer,
+.movement {
+  gap: var(--gap-17xl);
+}
+.footer {
+  flex-direction: row;
+  gap: var(--gap-65xl);
+  min-width: 622px;
+  max-width: 100%;
+}
+.smsIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.financycompanygmailcom {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.contactDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.mdifacebookIcon,
+.mdilinkedinIcon,
+.mdilinkedinIcon1 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 28px;
+}
+.contactInfo,
+.socmed {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.contactInfo {
+  flex-direction: column;
+  gap: var(--gap-226xl);
+  min-width: 283px;
+  color: var(--color-darkgray-400);
+}
+.footerInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-royalblue-100);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1225px) {
+  .contactInfo,
+  .footer {
+    flex: 1;
+  }
+  .footerInfo {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .footer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer {
+    flex-wrap: wrap;
+    gap: var(--gap-23xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer {
+    gap: var(--gap-2xl);
+  }
+  .contactInfo {
+    gap: var(--gap-103xl);
+  }
+}

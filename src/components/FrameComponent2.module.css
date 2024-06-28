@@ -1,0 +1,99 @@
+.whatIsFinancial {
+  position: relative;
+  line-height: 35.75px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.financialManagementIs {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-darkgray-400);
+}
+.financialManagementDetails {
+  width: 715px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: calc(100% - 48px);
+}
+.arrowCircleRightIcon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+.financialManagementContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.faqs,
+.whatIsFinancialManagement {
+  align-self: stretch;
+  flex-direction: column;
+}
+.whatIsFinancialManagement {
+  border-radius: var(--br-sm);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.faqs {
+  gap: var(--gap-13xl);
+}
+.fAQContent,
+.fAQContentWrapper,
+.faqs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fAQContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+}
+.fAQContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 750px) {
+  .faqs {
+    gap: var(--gap-base);
+  }
+  .fAQContent {
+    gap: var(--gap-11xl);
+  }
+  .fAQContentWrapper {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatIsFinancial {
+    font-size: var(--font-size-3xl);
+  }
+}
